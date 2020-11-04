@@ -15,6 +15,7 @@
 - axios@0.21.0
 - react-file-base64@1.0.3
 - moment@2.29.1
+- @material-ui/core
 
 ### API Used
 
