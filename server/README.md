@@ -10,10 +10,14 @@
 
 ### Tech-Stack
 
-- body-parser@1.19.0
-- express@4.17.1
-- mongoose@5.10.11
-- cors@2.8.5
+- Dependencies:
+  - body-parser@1.19.0
+  - express@4.17.1
+  - mongoose@5.10.11
+  - cors@2.8.5
+- DevDependencies:
+  - nodemon
+  - morgan
 
 ### API Used
 
