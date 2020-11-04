@@ -1,13 +1,5 @@
 # Mini Project: Memories Application - Client
 
-## Date: 02 - Nov - 2020
-
-### Functions
-
-### Screenshot
-
-- <img src="" alt=""/>
-
 ### Tech-Stack
 
 - redux@4.0.5
@@ -16,21 +8,6 @@
 - react-file-base64@1.0.3
 - moment@2.29.1
 - @material-ui/core
-
-### API Used
-
-### Deploy
-
-- [Live Site](link)
-- [Live Server](link)
-
-### Plan Of Action
-
-### After this project
-
-I have improve my knowledge about
-I have understand about
-Next Steps:
 
 ### Directory Structure
 
@@ -41,28 +18,92 @@ Next Steps:
 ├── README.md
 ├── public
 └── src
+    ├── images
+    ├── api
+    ├── actions
+        ├── posts.js
+    ├── reducers
+        ├── posts.js
+        ├── index.js
+    ├── components
+        ├── Form
+        └── Posts
+            └── Post
     ├── App.js
-    ├── App.css
-    ├── index.css
+    ├── styles.js
     └── index.js
 ```
 
-### Set up
+## Installation Guide
 
-Use the cmd line to clone repo to your computer
+### Production
+
+- Clone this project
 
 ```
-git clone [github_repo_url]
+git clone https://github.com/tinspham209/memories-application
 ```
 
-Use the cmd line to install dependencies.
+- Install dependencies
 
 ```
 npm install
 ```
 
-Run in cmd for start the dependencies server
+- Start the server
 
 ```
 npm start
 ```
+
+### Development
+
+- Clone this project
+- Install dependencies
+
+```
+npm install
+```
+
+- Start packager
+
+```
+npm start
+```
+
+### How to name a folder and a file
+
+- Folder name: - Ex: `InfoSection`
+- Component file name: should be -- Ex: `InfoSection.js`
+- Style component file name: should be -- Ex: `styles.js`
+
+### How to import and export module?
+
+- Import:
+
+```js
+//import every thing
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+
+//for default export
+import InfoSection from "./InfoSection";
+
+//for named export
+import { InfoSec, InfoRow } from "./InfoSection.elements";
+```
+
+### How to style for each component?
+
+- Create a styled-component file. Ex: `styles.js`
+- Import to `js` file
+
+```js
+// InfoSection.js
+
+import { InfoSec, InfoRow } from "./styles.js";
+```
+
+### How to connect to cloud MongoDB Atlas
+
+### How to setup Redux, Redux Thunk
