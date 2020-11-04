@@ -2,12 +2,6 @@
 
 ## Date: 02 - Nov - 2020
 
-### Functions
-
-### Screenshot
-
-- <img src="" alt=""/>
-
 ### Tech-Stack
 
 - Dependencies:
@@ -19,21 +13,6 @@
   - nodemon
   - morgan
 
-### API Used
-
-### Deploy
-
-- [Live Site](link)
-- [Live Server](link)
-
-### Plan Of Action
-
-### After this project
-
-I have improve my knowledge about
-I have understand about
-Next Steps:
-
 ### Directory Structure
 
 ```
@@ -41,30 +20,17 @@ Next Steps:
 ├── .gitignore
 ├── package.json
 ├── README.md
-├── public
-└── src
-    ├── App.js
-    ├── App.css
-    ├── index.css
-    └── index.js
+├── index.js
+├── routes
+    └── posts.js
+├── models
+    └── postMessage.js
+└── controllers
+    └── posts.js
 ```
 
-### Set up
+### How to connect to cloud MongoDB Atlas
 
-Use the cmd line to clone repo to your computer
+### How to setup process.env.PORT
 
-```
-git clone [github_repo_url]
-```
-
-Use the cmd line to install dependencies.
-
-```
-npm install
-```
-
-Run in cmd for start the dependencies server
-
-```
-npm start
-```
+### How to hide your ID & pass in mongodb

@@ -14,12 +14,15 @@
 
 ### Screenshot
 
-- <img src="" alt=""/>
+- <img src="" alt="developing"/>
 
 ### Tech-Stack
 
 - Client:
 
+  - react
+  - @material-ui/core
+  - react-redux
   - redux@4.0.5
   - redux-thunk@2.3.0
   - axios@0.21.0
@@ -31,6 +34,8 @@
   - express@4.17.1
   - mongoose@5.10.11
   - cors@2.8.5
+  - nodemon
+  - morgan
 
 ### API Used
 
@@ -41,11 +46,40 @@
 
 ### Plan Of Action
 
+- Initial Project
+- Draw Architecture Structure
+- Backend Setup
+- Frontend Setup
+- server: index.js Setup
+- MongoDB Setup
+- Connecting to the Database in cloud.mongodb
+- Routing
+- Backend Folder Structure
+- Controllers
+- JSX Structure
+- Styling
+- setup Redux
+- Form structure JSX
+- Create a Post
+
 ### After this project
 
 I have improve my knowledge about
+
+- how to use redux in project
+- CRUD in server (CREATE, READ, UPDATE, DELETE)
+- separate each modules, controller, routes(views),
+
 I have understand about
+
+- how to apply redux thunk
+- how to style component with makeStyles
+
 Next Steps:
+
+- Display Posts in UI
+- Update Post
+- Delete Post
 
 ### Directory Structure
 
@@ -55,21 +89,55 @@ Next Steps:
 └── server
 ```
 
-### Set up
+## Installation Guide
 
-Use the cmd line to clone repo to your computer
+### Production
+
+- Clone this project
 
 ```
-git clone [github_repo_url]
+git clone https://github.com/tinspham209/memories-application
 ```
 
-Use the cmd line to install dependencies.
+- cd to `/server`
+
+- Install dependencies
 
 ```
 npm install
 ```
 
-Run in cmd for start the dependencies server
+- Start the server
+
+```
+npm start
+```
+
+- cd to `/client`
+
+- Install dependencies
+
+```
+npm install
+```
+
+- Start the server
+
+```
+npm start
+```
+
+### Development
+
+- Clone this project
+- cd to both: `/client` & `/server`
+- Install dependencies
+
+```
+npm install
+```
+
+- Start packager
 
 ```
 npm start

@@ -34,43 +34,6 @@
     └── index.js
 ```
 
-## Installation Guide
-
-### Production
-
-- Clone this project
-
-```
-git clone https://github.com/tinspham209/memories-application
-```
-
-- Install dependencies
-
-```
-npm install
-```
-
-- Start the server
-
-```
-npm start
-```
-
-### Development
-
-- Clone this project
-- Install dependencies
-
-```
-npm install
-```
-
-- Start packager
-
-```
-npm start
-```
-
 ### How to name a folder and a file
 
 - Folder name: - Ex: `InfoSection`
@@ -103,7 +66,5 @@ import { InfoSec, InfoRow } from "./InfoSection.elements";
 
 import { InfoSec, InfoRow } from "./styles.js";
 ```
-
-### How to connect to cloud MongoDB Atlas
 
 ### How to setup Redux, Redux Thunk
