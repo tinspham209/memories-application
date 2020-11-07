@@ -19,14 +19,10 @@ app.get("/", (req, res) => {
 	res.send("Hello to Memories Application API");
 });
 
-const CONNECTION_URL =
-	process.env.CONNECTION_URL ||
-	"mongodb+srv://tinspham209:tinspham209@cluster0.t1wcu.mongodb.net/<dbname>?retryWrites=true&w=majority";
-
 const PORT = process.env.PORT || 5000;
 
 mongoose
-	.connect(CONNECTION_URL, {
+	.connect(process.env.CONNECTION_URL, {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 	})
