@@ -60,7 +60,10 @@
 - Styling
 - setup Redux
 - Form structure JSX
-- Create a Post
+- Create a Post and send to server
+- fetch Posts from server and load to UI
+- Update Post in server
+- Update Post in client
 
 ### After this project
 
@@ -68,18 +71,21 @@ I have improve my knowledge about
 
 - how to use redux in project
 - CRUD in server (CREATE, READ, UPDATE, DELETE)
-- separate each modules, controller, routes(views),
+- separate each models, controllers, routes,
 
 I have understand about
 
-- how to apply redux thunk
+- how to apply redux thunk to project
+- structure with Material-UI
 - how to style component with makeStyles
+- working with mongoDB
+- send database to cloud (cloud.mongodb.com)
+- how to send setState of useState to children
 
 Next Steps:
 
-- Display Posts in UI
-- Update Post
 - Delete Post
+- Like Post
 
 ### Directory Structure
 
