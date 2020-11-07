@@ -9,7 +9,6 @@
   - express@4.17.1
   - mongoose@5.10.11
   - cors@2.8.5
-- DevDependencies:
   - nodemon
   - morgan
 
@@ -20,6 +19,8 @@
 ├── .gitignore
 ├── package.json
 ├── README.md
+├── .env
+├── Procfile //Deploy to heroku
 ├── index.js
 ├── routes
     └── posts.js
@@ -32,7 +33,5 @@
 ### How to connect to cloud MongoDB Atlas
 
 ### How to setup process.env
-
-### How to hide your ID & pass in mongodb
 
 ### How to deploy to Heroku
