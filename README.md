@@ -69,6 +69,7 @@
 - Like Post in server
 - Like Post in client
 - Fix UI
+- Mobile Responsive
 
 ### After this project
 
@@ -86,6 +87,7 @@ I have understand about
 - working with mongoDB
 - send database to cloud (cloud.mongodb.com)
 - how to send setState of useState to children
+- how to count a like of Post in server
 
 Next Steps:
 
@@ -98,7 +100,7 @@ error.message TypeError: Cannot destructure property 'data' of '(intermediate va
   at posts.js:24
 ```
 
-- CAN'T Import img has large size
+- CAN'T Import img that has large size
 
 ### Directory Structure
 
