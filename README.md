@@ -64,6 +64,10 @@
 - fetch Posts from server and load to UI
 - Update Post in server
 - Update Post in client
+- Delete Post in server
+- Delete Post in client
+- Like Post in server
+- Like Post in client
 
 ### After this project
 
