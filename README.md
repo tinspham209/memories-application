@@ -68,6 +68,7 @@
 - Delete Post in client
 - Like Post in server
 - Like Post in client
+- Fix UI
 
 ### After this project
 
@@ -88,8 +89,16 @@ I have understand about
 
 Next Steps:
 
-- Delete Post
-- Like Post
+Error:
+
+- bug:
+
+```
+error.message TypeError: Cannot destructure property 'data' of '(intermediate value)' as it is undefined.
+  at posts.js:24
+```
+
+- CAN'T Import img has large size
 
 ### Directory Structure
 
