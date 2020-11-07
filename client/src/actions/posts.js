@@ -6,7 +6,7 @@ export const getPosts = () => async (dispatch) => {
 		const { data } = await api.fetchPosts();
 		dispatch({ type: "FETCH_ALL", payload: data });
 	} catch (error) {
-		console.log("error.message", error.message);
+		console.log("error.message", error);
 	}
 };
 
@@ -25,6 +25,6 @@ export const updatePost = (id, post) => async (dispatch) => {
 
 		dispatch({ type: "UPDATE", payload: data });
 	} catch (error) {
-		console.log("error.message", error.message);
+		console.log("error.message", error);
 	}
 };
