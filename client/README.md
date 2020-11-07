@@ -8,6 +8,7 @@
 - react-file-base64@1.0.3
 - moment@2.29.1
 - @material-ui/core
+- @material-ui/icons
 
 ### Directory Structure
 
@@ -16,10 +17,14 @@
 ├── .gitignore
 ├── package.json
 ├── README.md
+├── deploy-firebase
+├── build
 ├── public
 └── src
     ├── images
     ├── api
+    ├── constants
+        └── actionTypes.js
     ├── actions
         ├── posts.js
     ├── reducers
@@ -31,6 +36,7 @@
             └── Post
     ├── App.js
     ├── styles.js
+    ├── index.css
     └── index.js
 ```
 
@@ -68,3 +74,7 @@ import { InfoSec, InfoRow } from "./styles.js";
 ```
 
 ### How to setup Redux, Redux Thunk
+
+### How to deploy to firebase
+
+### How to fetch data from server

@@ -1,6 +1,6 @@
 # Mini Project: Memories Application
 
-## Date: 02 - Nov - 2020
+## Date: 02 - Nov - 2020 ~> 08 - Nov - 2020
 
 ### Description
 
@@ -14,7 +14,7 @@
 
 ### Screenshot
 
-- <img src="" alt="developing"/>
+- <img src="./template-project-img.png" alt="memories-application"/>
 
 ### Tech-Stack
 
@@ -37,12 +37,16 @@
   - nodemon
   - morgan
 
-### API Used
-
 ### Deploy
 
-- [Live Site](link)
-- [Live Server](link)
+Live Site:
+
+- https://memories.tinspham.info/
+- https://memories-application.web.app/
+
+Live Server:
+
+- https://memories-application-server.herokuapp.com/
 
 ### Plan Of Action
 
@@ -70,6 +74,11 @@
 - Like Post in client
 - Fix UI
 - Mobile Responsive
+- Environmental Variables
+- Deploy `/server` to heroku
+- Deploy `/client` to firebase
+- Add custom domain to `/client`
+- Write `README.md` Document
 
 ### After this project
 
@@ -78,6 +87,7 @@ I have improve my knowledge about
 - how to use redux in project
 - CRUD in server (CREATE, READ, UPDATE, DELETE)
 - separate each models, controllers, routes,
+- Deploy client to firebase
 
 I have understand about
 
@@ -88,19 +98,26 @@ I have understand about
 - send database to cloud (cloud.mongodb.com)
 - how to send setState of useState to children
 - how to count a like of Post in server
+- Deploy server to heroku
 
-Next Steps:
+Bug:
 
-Error:
-
-- bug:
+- when update new hashtags of post, but data is updated:
 
 ```
 error.message TypeError: Cannot destructure property 'data' of '(intermediate value)' as it is undefined.
   at posts.js:24
 ```
 
-- CAN'T Import img that has large size
+- CAN'T import img that has large size
+- Fetch data from heroku is 5s delay.
+- when create new post, file attached is not clear
+
+### Next Steps:
+
+- Create Architecture document
+- Set limit of post per page, click next page to load more...
+- Authentication
 
 ### Directory Structure
 
@@ -163,3 +180,8 @@ npm install
 ```
 npm start
 ```
+
+### How to upgrade project?
+
+- go to both `/client` & `/server`, and read the `README.md` to understand
+- If have any question? Email me: tinphamvan123@gmail.com
