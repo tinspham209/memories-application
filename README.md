@@ -16,6 +16,17 @@
 
 - <img src="./template-project-img.png" alt="memories-application"/>
 
+### Release
+
+Live Site:
+
+- https://memories.tinspham.info/
+- https://memories-application.web.app/
+
+Live Server:
+
+- https://memories-application-server.herokuapp.com/
+
 ### Tech-Stack
 
 - Client:
@@ -36,17 +47,6 @@
   - cors@2.8.5
   - nodemon
   - morgan
-
-### Deploy
-
-Live Site:
-
-- https://memories.tinspham.info/
-- https://memories-application.web.app/
-
-Live Server:
-
-- https://memories-application-server.herokuapp.com/
 
 ### Plan Of Action
 
@@ -79,6 +79,7 @@ Live Server:
 - Deploy `/client` to firebase
 - Add custom domain to `/client`
 - Write `README.md` Document
+- Screenshot of UI
 
 ### After this project
 
