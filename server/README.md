@@ -31,6 +31,6 @@
 
 ### How to connect to cloud MongoDB Atlas
 
-### How to setup process.env.PORT
+### How to setup process.env
 
 ### How to hide your ID & pass in mongodb
