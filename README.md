@@ -1,6 +1,9 @@
 # Mini Project: Memories Application
 
-## Date: 02 - Nov - 2020 ~> 08 - Nov - 2020
+## Date:
+
+- Part 1 + 2: 02 - Nov - 2020 ~> 08 - Nov - 2020
+- Part 3 (Auth): 29 - Jan - 21
 
 ### Description
 
@@ -39,6 +42,8 @@ Live Server:
   - axios@0.21.0
   - react-file-base64@1.0.3
   - moment@2.29.1
+  - jwt-decode@3.1.2
+  - react-google-login@5.2.2
 
 - Server:
   - body-parser@1.19.0
@@ -47,6 +52,8 @@ Live Server:
   - cors@2.8.5
   - nodemon
   - morgan
+  - jsonwebtoken@8.5.1
+  - bcryptjs@2.4.3
 
 ### Plan Of Action
 
@@ -80,6 +87,8 @@ Live Server:
 - Add custom domain to `/client`
 - Write `README.md` Document
 - Screenshot of UI
+- Refactor Layout with router
+- Auth UI
 
 ### After this project
 
@@ -89,6 +98,7 @@ I have improve my knowledge about
 - CRUD in server (CREATE, READ, UPDATE, DELETE)
 - separate each models, controllers, routes,
 - Deploy client to firebase
+- Styles CSS with Material-UI
 
 I have understand about
 
