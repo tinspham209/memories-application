@@ -57,6 +57,8 @@ Live Server:
 
 ### Plan Of Action
 
+**Phrase 1:**
+
 - Initial Project
 - Draw Architecture Structure
 - Backend Setup
@@ -87,8 +89,20 @@ Live Server:
 - Add custom domain to `/client`
 - Write `README.md` Document
 - Screenshot of UI
+
+**Phrase 2:**
+
 - Refactor Layout with router
-- Auth UI
+- Auth Form UI
+- Google OAuth
+- JWT Login
+- JWT Auth Backend
+- Auth Middleware
+- JWT Login Frontend
+- User Actions
+- Like, delete & edit
+- Token Expiry
+- Deployment
 
 ### After this project
 
@@ -110,6 +124,7 @@ I have understand about
 - how to send setState of useState to children
 - how to count a like of Post in server
 - Deploy server to heroku
+- Google OAuth
 
 Bug:
 
@@ -128,7 +143,6 @@ error.message TypeError: Cannot destructure property 'data' of '(intermediate va
 
 - Create Architecture document
 - Set limit of post per page, click next page to load more...
-- Authentication
 
 ### Directory Structure
 
@@ -156,7 +170,7 @@ git clone https://github.com/tinspham209/memories-application
 npm install
 ```
 
-- Start the server
+- Start the server, project with run on `PORT 5000`
 
 ```
 npm start
@@ -170,7 +184,7 @@ npm start
 npm install
 ```
 
-- Start the server
+- Start the server, project with run on `PORT 3000`
 
 ```
 npm start
@@ -195,4 +209,4 @@ npm start
 ### How to upgrade project?
 
 - go to both `/client` & `/server`, and read the `README.md` to understand
-- If have any question? Email me: tinphamvan123@gmail.com
+- If have any question? Open issues or Email me: tinphamvan123@gmail.com
