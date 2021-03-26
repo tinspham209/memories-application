@@ -10,7 +10,6 @@ import { useSelector } from "react-redux";
 const Form = ({ currentId, setCurrentId }) => {
   const classes = useStyles();
   const user = JSON.parse(localStorage.getItem("profile"));
-  console.log("user: ", user);
 
   const [postData, setPostData] = useState({
     title: "",
