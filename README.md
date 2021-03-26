@@ -1,19 +1,28 @@
-# Mini Project: Memories Application
+# Project: Memories Application
 
 ## Date:
 
-- Part 1 + 2: 02 - Nov - 2020 ~> 08 - Nov - 2020
-- Part 3 (Auth): 29 - Jan - 21
+- Phrase 1 + 2: 02 - Nov - 2020 ~> 08 - Nov - 2020
+- Phrase 3 (Authentication): 26 - Mar - 2021
 
 ### Description
 
-- a simple social media app that allows users to post interesting events that happened in their lives.
+- A simple social media app that allows users to post interesting events that happened in their lives.
 - Build and Deploy a Full Stack MERN App
   - React
   - Redux
   - Node
   - Express
   - MongoDB
+- Authentication:
+  - Login with Email (JWT)
+  - Login with Google
+  - Token Expiry
+- Role for Users
+  - User can views the posts, but can't like or any actions
+  - Login for create new post
+  - Only delete/edit information of posts that user's was create
+- Responsive is support for all screen
 
 ### Screenshot
 
@@ -125,9 +134,15 @@ I have understand about
 - how to count a like of Post in server
 - Deploy server to heroku
 - Google OAuth
+- what is Middleware and how to apply it in to project
+- what is JWT and how to use
+- JWT Auth Backend & Frontend
+- Role for User Actions
+- Token Expiry
 
 Bug:
 
+- CAN'T login with Google when `deploy`, but in `localhost` it can
 - when update new hashtags of post, but data is updated:
 
 ```
@@ -162,6 +177,8 @@ error.message TypeError: Cannot destructure property 'data' of '(intermediate va
 git clone https://github.com/tinspham209/memories-application
 ```
 
+**Server:**
+
 - cd to `/server`
 
 - Install dependencies
@@ -170,11 +187,16 @@ git clone https://github.com/tinspham209/memories-application
 npm install
 ```
 
+- create `.env` file similar with my `.env.example` file
+- update `CONNECTION_URL` with your url MongoDB Atlas
+
 - Start the server, project with run on `PORT 5000`
 
 ```
 npm start
 ```
+
+**Client:**
 
 - cd to `/client`
 
@@ -190,21 +212,9 @@ npm install
 npm start
 ```
 
-### Development
+### How to deploy project
 
-- Clone this project
-- cd to both: `/client` & `/server`
-- Install dependencies
-
-```
-npm install
-```
-
-- Start packager
-
-```
-npm start
-```
+- go to both `/client` & `/server`, and read the `README.md` to understand
 
 ### How to upgrade project?
 
