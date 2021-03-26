@@ -26,7 +26,7 @@
 
 ### Screenshot
 
-- <img src="./template-project-img.png" alt="memories-application"/>
+- <img src="./screenshot.png" alt="memories-application"/>
 
 ### Release
 
